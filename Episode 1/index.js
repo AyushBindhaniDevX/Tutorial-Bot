@@ -11,5 +11,4 @@ client.on("message", (message) => {//This event emites when a new messages comes
         message.channel.send("Pong!")//This reply Pong! to the channel where message arrives!
     }
 })
-
-client.login("NzkxNjAxNzQ1NjI4MzY0ODAw.X-Rikw.pfSBPzuB_BkBtpTbOBG6KQaznXw")//Logging the client to discord!
+client.login(process.env.BOT_TOKEN);
